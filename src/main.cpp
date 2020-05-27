@@ -44,7 +44,7 @@ void loop() {
     connect();
   }
   // publish frequency
-  if (millis() - lastMillis > 30000) {
+  if (millis() - lastMillis > 60000) {
     lastMillis = millis();
     publish();
   }
